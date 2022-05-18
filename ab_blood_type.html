@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta name="description" content="Jordan Miner's Digital Portfolio","Jordan Miner", "Jordan", "Miner", "Rogers", "RHS", "compatibility", "Acadmey of Information Technology", "Portfolio", "Digital Portfolio", "compatibility 2", "compatibility", "compatibility 3">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<title> Blood Type AB</title>
+
+    <link rel= "icclosehrefon" href= "img/icon.png"> 
+
+<!-- STYLES -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/plugins.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<!--[if lt IE 9]> <script type="text/javascript" src="js/modernizr.custom.js"></script> <![endif]-->
+<!-- /STYLES -->
+
+<script>
+	// Create a "close" button and append it to each list item
+	var myNodelist = document.getElementsByTagName("LI");
+	var i;
+	for (i = 0; i < myNodelist.length; i++) {
+	  var span = document.createElement("SPAN");
+	  var txt = document.createTextNode("\u00D7");
+	  span.className = "close";
+	  span.appendChild(txt);
+	  myNodelist[i].appendChild(span);
+	}
+	
+	// Click on a close button to hide the current list item
+	var close = document.getElementsByClassName("close");
+	var i;
+	for (i = 0; i < close.length; i++) {
+	  close[i].onclick = function() {
+		var div = this.parentElement;
+		div.style.display = "none";
+	  }
+	}
+	
+	// Add a "checked" symbol when clicking on a list item
+	var list = document.querySelector('ul');
+	list.addEventListener('click', function(ev) {
+	  if (ev.target.tagName === 'LI') {
+		ev.target.classList.toggle('checked');
+	  }
+	}, false);
+	
+	// Create a new list item when clicking on the "Add" button
+	function newElement() {
+	  var li = document.createElement("li");
+	  var inputValue = document.getElementById("myInput").value;
+	  var t = document.createTextNode(inputValue);
+	  li.appendChild(t);
+	  if (inputValue === '') {
+		alert("You must write something!");
+	  } else {
+		document.getElementById("myUL").appendChild(li);
+	  }
+	  document.getElementById("myInput").value = "";
+	
+	  var span = document.createElement("SPAN");
+	  var txt = document.createTextNode("\u00D7");
+	  span.className = "close";
+	  span.appendChild(txt);
+	  li.appendChild(span);
+	
+	  for (i = 0; i < close.length; i++) {
+		close[i].onclick = function() {
+		  var div = this.parentElement;
+		  div.style.display = "none";
+		}
+	  }
+	}
+</script>
+
+
+</head>
+
+<body>
+
+<!-- WRAPPER ALL -->
+<div class="JM_tm_wrapper_all">
+
+	<div id="JM_tm_popup_blog">
+		<div class="container">
+			<div class="inner_popup scrollable"></div>
+		</div>
+		<span class="close"><a href="#home"></a></span>
+	</div>
+	
+    <!-- HEADER -->
+    <header class="JM_tm_header">
+		<div class="JM_tm_navigation_wrap">
+			<div class="container">
+				<div class="navigation_inner">
+					<div class="logo">
+						<a class="dark_logo" href="index.html"><img src="img/icon.png" style="padding-top: 0px;"></a>
+					</div>
+					<div class="nav_list_wrap">
+						<div class="menu">
+							<ul class="anchor_nav">
+								<li><a href="#home">Home</a></li>
+								<li><a href="#history">History</a></li>
+								<li><a href="#traits">Traits</a></li>
+								<li><a href="#compatibility">Compatibility</a></li>
+								<li><a href="#notable_people">Notable People</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="JM_tm_trigger">
+						<div class="hamburger hamburger--collapse-r">
+							<div class="hamburger-box">
+								<div class="hamburger-inner"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+   		<div class="JM_tm_mobile_menu_wrap">
+   			<div class="mob_menu">
+				<ul class="anchor_nav">
+					<li><a href="ab_type.html">Home</a></li>
+					<li><a href="ab_type.html#history">History</a></li>
+					<li><a href="ab_type.html#traits">Traits</a></li>
+					<li><a href="ab_type.html#compatibility">Compatibility</a></li>
+					<li><a href="ab_type.html#notable_people">Notable People</a></li>
+				</ul>
+			</div>
+		</div>
+    </header>
+    <!-- /HEADER -->
+    
+    <!-- CONTENT -->
+	<div class="JM_tm_content">
+	
+		<!-- HERO -->
+		<div class="JM_tm_section" id="home">
+			<div class="JM_tm_hero_header">
+				<div class="JM_tm_universal_box_wrap">
+					<div class="bg_wrap">
+						<div class="overlay_video" style="height:100%;">
+							<video autoplay muted loop id="myVideo" style="width: 100%; height:100%;">
+								<source src="video/index_bg_trim.mp4" type="video/mp4">
+							</video>
+						</div>
+					<div class="content hero">
+						<div class="container hero">
+							<div class="hero_title">
+								<img src = "img/icons/ab_blood.png">
+							</div>
+						</div>
+						<div class="JM_tm_discover_wrap anchor">
+							<span>
+								<a href="#history">Discover</a>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- /HERO -->
+		
+
+
+
+		<!-- history -->
+		<div class="JM_tm_section" id="history">
+			<div class="container">
+				<div class="JM_tm_main_title_holder_wrap history">
+					<div class="title_wrap" style="padding-top: 8%; padding-bottom: 2%;">
+						<span>History</span>
+					</div>
+				</div>
+				<div class="JM_tm_history_wrap homepage_second" >
+						<div class="leftbox">
+							<div class="wow fadeInUp" data-wow-duration="1.2s"></div>
+						<!---Photo of me-->
+						</div>
+						<div class="rightbox">
+
+							<div class="definition" style="padding-bottom: 7%; font-family: 'Raleway', sans-serif; font-size: 1.1em; margin-top: -8%;">
+								<p>In 1927, Psychologist Takeji Furukawa was a teacher at a girls' school attached to a university. He began to question the school's entrance exam system, which was based solely on academic ability. He wanted a system that also considered the applicants' personalities. Based on this idea, he observed 11 people in his family and noted their blood types. There weren't any AB types in his family, so he lumped them together with A. And voila! From this incredibly tiny focus group, he wrote his famous thesis titled, "The Study of Temperament Through Blood Type." Even though Furukawa's theories were denied by academics in 1933, the theory was too popular to shoot down completely.</p>
+
+								<p>After WWII, discussions history the blood typing theory died down for some time. But in the 1970s, a journalist by the name of Masahiko Nomi, who was influenced by Takeji Furukawa, published a book history the relationships between blood types and personalities. This book became a bestseller and helped spread the theory more widely. By the 1980s, the topic was popping up in media like music, TV shows, and magazines. Furukawa's blood type theory had finally hit the big time!</p>
+
+								
+							</div>
+
+					</div>
+			</div>
+		</div>
+	</div>
+		<!-- /history -->
+		
+
+	<!--traits-->
+	<div class="JM_tm_section" id="traits">
+			<div class="JM_tm_traits_wrap">
+				<div class="JM_tm_universal_box_wrap">
+					<div class="bg_wrap hero">
+						<div class="overlay_image traits jarallax" data-speed="0"></div>
+						<div class="overlay_color traits"></div>
+					</div>
+					<div class="content traits">
+						<div class="JM_tm_main_title_holder_wrap traits">
+							<div class="title_wrap" style="padding-top:1.5%;">
+								<span>Blood Type AB Traits</span>
+							</div>
+							<div class="info">People with this blood type are often described as being a hybrid of A and B, making it seem like they're two personalities mixed together. This makes them seem dual-natured and complicated. It also reinforces the stereotype that AB people are eccentric. Of all the four blood types, AB is the rarest in both Japan and the world.
+							</div>
+
+						</div>
+
+						<div class="container">
+							<div class="carousel_wrap">
+								<ul class="owl-carousel">
+									<!--Rational-->
+									<li class="item">
+										<div class="inner">
+											<div class="image_holder">
+												<img src="img/jarallax2/rational.png" />
+											</div>
+											<div class="definition">
+												<p>These individuals are very analytical, organizing all pieces of information in a way that makes the most sense to them. They are always trying to learn new ways to improve themselves. They work methodically and always consider every facet of a situation before taking the next step.
+												 </p>
+											</div>
+											<div class="svg_wrap">
+												<img class="png" src="img/icon.png"  style="width:18%;">
+											</div>
+											<div class="name_holder_wrap">
+												<span class="trait">Rational</span>
+											</div>
+										</div>
+									</li>
+									<!--Organized-->
+									<li class="item">
+										<div class="inner">
+											<div class="image_holder">
+												<img src="img/jarallax2/organized.png" alt="" />
+											</div>
+											<div class="definition">
+												<p>People with this blood type greatly dislike clutter. They have a high degree of self-control, and strickly follow routines or plans. That being said, people with Type AB are also flexible, for they always have a backup plan.</p>
+											</div>
+											<div class="svg_wrap">
+												<img class="png" src="img/icon.png"  style="width:18%;">
+											</div>
+											<div class="name_holder_wrap">
+												<span class="trait">Organized</span>
+											</div>
+										</div>
+									</li>
+									<!--Empathetic-->
+									<li class="item">
+										<div class="inner">
+											<div class="image_holder">
+												<img src="img/jarallax2/empathetic.png" alt="" />
+											</div>
+											<div class="definition">
+												<p>People with this blood type are always careful when dealing with others. They make sure to consider people's perspectives and interpretations. They are caring and willing to listen when you need someone to talk to. This also makes them a bit sensitive at times.</p>
+											</div>
+											<div class="svg_wrap">
+												<img class="png" src="img/icon.png"  style="width:18%;">
+											</div>
+											<div class="name_holder_wrap">
+												<span class="trait">Empathetic</span>
+											</div>
+										</div>
+									</li>
+									<!--Eccentric-->
+									<li class="item">
+										<div class="inner">
+											<div class="image_holder">
+												<img src="img/jarallax2/practical.png"  alt="" />
+											</div>
+											<div class="definition">
+												<p>Due to having both qualities of Type A and Type B, people with Type AB are known to be a bit unpredictable. Sometimes they can be outgoing like people with B, but they also have the shyness of Type A that also shows itself. This gives them a sense of quirkiness or uniqueness that others may have difficulty understanding.</p>
+											</div>
+											<div class="svg_wrap">
+												<img class="png" src="img/icon.png"  style="width:18%;">
+											</div>
+											<div class="name_holder_wrap">
+												<span class="trait">Eccentric</span>
+											</div>
+										</div>
+									</li>
+									<!--Aloof-->
+									<li class="item">
+										<div class="inner">
+											<div class="image_holder">
+												<img src="img/jarallax2/aloof.png"  alt="" />
+											</div>
+											<div class="definition">
+												<p> People with Type AB are often introverted, and this can make them seem distant or removed. It is hard or strangers to instantly decide which personality people with Type AB have until they get to know them. This can often lead to them feeling misunderstood by others.
+												</p>
+											</div>
+											<div class="svg_wrap">
+												<img class="png" src="img/icon.png"  style="width:18%;">
+											</div>
+											<div class="name_holder_wrap">
+												<span class="trait">Aloof</span>
+											</div>
+										</div>
+									</li>
+									<!--Critical-->
+									<li class="item">
+										<div class="inner">
+											<div class="image_holder">
+												<img src="img/jarallax2/critical.png" alt="" />
+											</div>
+											<div class="definition">
+												<p>
+													People with Type AB can be somewhat critical of others as they sometimes lack filters. They often focus on the negatives instead of the hard work that went into a project as they hold themselves and others to seemingly rigid standard.
+												</p>
+											</div>
+											<div class="svg_wrap">
+												<img class="png" src="img/icon.png"  style="width:18%;">
+											</div>
+											<div class="name_holder_wrap">
+												<span class="trait">Critical</span>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /traits -->
+
+		
+		<!-- compatibility -->
+		<div class="JM_tm_section" id="compatibility">
+			<div class="JM_tm_compatibility_wrap">
+				<div class="container">
+					<div class="JM_tm_main_title_holder_wrap compatibility" style="padding-bottom: 0%;">
+						<div class="title_wrap" style="margin-top:5%;">
+							<span>Compatibility </span>
+						</div>
+					</div>
+					<div class="info" style="text-align: center;">
+						Like astrology, blood types can be used to determine if two people are compatible and foreshadow any conflicts that may occur in the relationship..
+					</div>	
+					<!--Pop-up tables-->
+					<div class="JM_tm_list_wrap blog_list" data-column="4" data-space="30">
+						<ul class="total">
+							<!--AB × A-->
+							<li class="wow fadeInUp" data-wow-duration="1.2s">
+								<div class="inner_list">
+									<div class="image_wrap">
+										<img class="small" src="img/ab_type_content/ab_and_a.png" alt="" />
+										<img class="big" src="img/ab_type_content/ab_and_a.png" alt="" />
+										<div class="news_image" data-url="img/ab_type_content/ab_and_a.png"></div>
+										<a href="compatibility1.html"></a>
+									</div>
+									<div class="definitions_wrap">
+										<div class="title_holder">
+											<h3>AB × A</h3>
+										</div>
+										<div class="definition">
+											<p>Type A and Type AB have the chance to have a secure and loving friendship and relationship. The dependable and loving Type A will attract the realist being Type AB. That being said, issues can arise if Type AB leans too heavily towards Type B personality, making them too domineering and likely to start arguments. Ideally, this relationship works better if Type AB leans more towards Type A than it does Type B.</p>
+										</div>
+										<div class="full_def">
+											<p>
+										</div>
+										<div class="cr_blue_btn" id="link">
+											<a href="a_blood_type.html"><span>Blood Type A</span></a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<!--AB x B-->
+							<li class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.2s">
+								<div class="inner_list" >
+									<div class="image_wrap">
+										<img class="small" src="img/ab_type_content/ab_and_b.png" alt="" />
+										<img class="big" src="img/ab_type_content/ab_and_b.png" alt="" />
+										<div class="news_image" data-url="img/ab_type_content/ab_and_b.png"></div>
+										<a class="link_compatibility" href="index.html"></a>
+									</div>
+									<div class="definitions_wrap">
+										<div class="title_holder">
+											<h3>AB × B</h3>
+										</div>
+										<div class="definition">
+											<p>Both Type B and Type AB are drawn to one another for their enthusiasm and passion. Type B needs to be understanding and adaptable of Type AB's unperdictability and Type AB needs to understand Type B's preference to go at their own pace. They'll need to have clear communication to ensure that they don't get in each other's way. </p>
+										</div>
+										<div class="full_def">
+											<p></p>
+										</div>
+										<div class="cr_blue_btn">
+											<a href="b_blood_type.html"><span>Blood Type B</span></a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<!---AB X O-->
+							<li class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.4s">
+								<div class="inner_list">
+									<div class="image_wrap">
+										<img class="small" src="img/ab_type_content/ab_and_o.png" alt="" />
+										<img class="big" src="img/ab_type_content/ab_and_o.png" alt="" />
+										<div class="news_image" data-url="img/ab_type_content/ab_and_o.png"></div>
+										<a class="link_compatibility" href="index.html"></a>
+									</div>
+									<div class="definitions_wrap">
+										<div class="title_holder">
+											<h3>AB × O</h3>
+										</div>
+										<div class="definition">
+											<p>Type O is drawn to AB's adaptibility and spontaneity, while Type AB likes Type O's stability seriousness. That being said, these differences may cause conflicts, as the brutally honest Type O may become frusterated with Type AB's complexity, so mutual understanding is imperative for this relationship to work.</p>
+										</div>
+										<div class="full_def">
+											
+										</div>
+										<div class="cr_blue_btn">
+											<a href="o_blood_type.html"><span>Blood Type O</span></a>
+										</div>
+									</div>
+								</div>
+							</li>
+
+							<!--AB X AB-->
+							<li class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.6s">
+								<div class="inner_list">
+									<div class="image_wrap">
+										<img class="small" src="img/ab_type_content/ab_and_ab.png" alt="" />
+										<img class="big" src="img/ab_type_content/ab_and_ab.png" alt="" />
+										<div class="news_image" data-url="img/ab_type_content/ab_and_ab.png"></div>
+										<a class="link_compatibility" href="index.html"></a>
+									</div>
+									<div class="definitions_wrap">
+										<div class="title_holder">
+											<h3>AB × AB</h3>
+										</div>
+										<div class="definition">
+											<p>Couples that are both Type AB are quite rare, so there will be a strong connection and affection for one another. They can understand each other's complex and unique personalities than anyone else. However, their complexity can also make the relationship intense without a grounding force. </p>
+										</div>
+										<div class="full_def">
+											<p></p>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /compatibility -->
+
+
+		<!---- Notable People-->
+		<div class="JM_tm_section" id="notable_people">
+			<div class="JM_tm_np_wrap">
+				<div class="JM_tm_universal_box_wrap">
+					<div class="bg_wrap hero">
+					</div>
+					<div class="content traits">
+						<div class="JM_tm_main_title_holder_wrap notable people">
+							<div class="title_wrap" style="padding-top:1.5%;">
+								<span>Notable People</span>
+							</div>
+							<div class="info">
+								<ul id= "myUL">
+									<li> Thomas Edison</li>
+									<li>John F. Kennedy</li>
+									<li>Marilyn Monroe</li>
+									<li>Mick Jagger</li>
+									<li>Jackie Chan</li>
+									<li>Mao Zedong</li>
+								</ul>
+								<input type="text" id="myInput" placeholder="Add Name Here">
+								<span onclick="newElement()" class="addBtn">Add</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!---/NOTABLE PEOPLE-->
+
+
+		
+	</div>
+	<!-- /CONTENT -->
+  	
+  	<!-- TOP TOP -->
+	<div class="JM_tm_to_top_wrap">
+ 		<a href="b_type.html">Back To Top</a>  
+	</div>	
+ 	<!-- /TO TOP -->       	
+  	       	
+</div>
+<!-- / WRAPPER ALL -->
+	
+<!-- SCRIPTS -->
+<script src="js/jquery.js"></script>
+<!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->	
+<script src="js/plugins.js"></script>
+<script src="js/init.js"></script>
+<script src="js/modernzr.custom.js"></script>
+<!-- /SCRIPTS -->
+
+</body>
+</html>
+
